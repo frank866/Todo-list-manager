@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To DO LIST MANAGER</title>
+</head>
+<body>
+    <input id="task-check" type="checkbox">
+    <input id="description-check" type="checkbox">
+
+    <div class="wrapper">
+        <div class="left-container">
+            <label id="task-btn" for="task-check">Create New Task</label>
+        </div>
+        <div class="right-container">
+            <h4>Task To DO</h4>
+            <label id="description-btn" for="description-check">+</label>
+        </div>
+    </div>
+
+    <div class="create-task-container">
+        <h4>Create New Task</h4>
+        <div class="input">
+            <div class="create-input">
+                <input type="text">
+                <button type="submit">Create</button>
+            </div>
+            <label for="task-check">Cancel</label>
+        </div>
+    </div>
+
+    <div class="description-container">
+        <h4>Description</h4>
+        <input placeholder="Description" type="text">
+        <div class="btn">
+            <button type="submit">Save</button>
+            <label for="description-check">Cancel</label>
+        </div>
+    </div>
+
+</body>
+</html>
